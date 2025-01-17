@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Electron OpenAI Assistant</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    #record-btn {
+      padding: 15px 30px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+    #indicator {
+      width: 50px;
+      height: 50px;
+      margin: 20px auto;
+      background-color: grey;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+  <h1>OpenAI Assistant</h1>
+  <div id="indicator"></div>
+  <button id="record-btn">Hold to Speak</button>
+  <script src="renderer.js"></script>
+</body>
+</html>
