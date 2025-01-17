@@ -32,10 +32,10 @@ Ensure you have the following installed:
 ### Clone the Repository
 
 Clone the project to your local machine:
-```bash
+```
 git clone https://github.com/your-username/electron-openai-assistant.git
 cd electron-openai-assistant
-
+```
 
 ### Start the application
 
